@@ -1,0 +1,12 @@
+package problem1;
+
+import java.awt.Color;
+
+class Ball {
+	int x = 0;
+	int y = 0; // Current ball position
+	int dx = 2; // Increment on ball's x-coordinate
+	int dy = 2; // Increment on ball's y-coordinate
+	int radius = (int)(Math.random()*19)+2; // Ball radius
+	Color color = new Color((int) (Math.random() * 256), (int) (Math.random() * 256), (int) (Math.random() * 256));
+}
